@@ -1,0 +1,17 @@
+@(title: String, model: com.org.web.models.Model)
+
+@import com.org.web.views.html.layouts.main
+@import com.org.web.common.utilities.HttpUtility
+@import com.org.web.controllers.routes;
+
+@main(title = title) {
+    <h1>Hi</h1>
+    <ul>
+        <li>accessing model: @model.getName()</li>
+        <li>accessing reverse routes: @routes.Application.index()</li>
+        <li>accessing helper functions: @HttpUtility.helperFunction("help")</li>
+    </ul>
+
+
+
+}

@@ -1,0 +1,16 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+h1.superpower {
+    text-align: center;
+    font-size: 32px;
+}
+.superpower-metadata {
+    text-align: center;
+}
+.superpower-contributor {
+    text-align: center;
+    font-weight: 200;
+}
