@@ -1,4 +1,4 @@
-name :="webcommon"
+name :="com.org.web.common"
 
 version := "1.2"
 
@@ -13,6 +13,5 @@ libraryDependencies ++= Seq(
 resolvers += "google-sedis-fix" at "http://pk11-scratch.googlecode.com/svn/trunk"
 
 javaSource in Compile := baseDirectory.value
-
 
 unmanagedSourceDirectories in Compile := (javaSource in Compile).value :: Nil
